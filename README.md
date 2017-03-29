@@ -5,12 +5,15 @@ The plugin supports natively icons from FontAwesome and animation from Animate.c
 ## How To
 The most simple way to use it is:
 ```
-$.flalert('Hello World'); // basic call
+// basic call
+$.flalert('Hello World');
  
-$.flalert('Hello World', 'info'); // info type
+// info alert type
+$.flalert('Hello World', 'info');
 
-$.flalert('Hello World', 'loading'); // loading mode
+$.flalert('Hello World', 'loading'); 
 
+// loading mode
 $.flalert('Hello World', function(){
 	//see options below
 });
@@ -19,6 +22,7 @@ $.flalert('Hello World', function(){
 
 ### Options
 
+```
 type: 'success' | 'warning' | 'loading' | 'info' | 'error'
 position: 'top left' | 'top right' | 'bottom' | ...
 timeout: 4000
@@ -30,6 +34,7 @@ close: 'button'
 classes: null
 onClose: function()
 onStart: function()
+```
 
 ### Animate.css
 
